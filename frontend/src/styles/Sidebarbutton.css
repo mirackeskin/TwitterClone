@@ -1,0 +1,34 @@
+.Sidebarbutton{
+    float: left;
+    padding: 12px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.Sidebarbutton:hover{
+    background: #E7E7E8;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.Sidebarbutton-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sidebarbutton-icon i{
+    font-size: 24px;
+}
+
+.Sidebarbutton-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.Sidebarbutton-title p{
+    margin: 0px !important;
+    font-size: 20px;
+    font-family: “Helvetica Neue”,Helvetica,Arial,sans-serif;
+}
