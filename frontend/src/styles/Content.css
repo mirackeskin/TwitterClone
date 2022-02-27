@@ -1,4 +1,5 @@
 .Content{
-    background: yellow;
     width: 60%;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
 }

@@ -1,0 +1,50 @@
+.profile-card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 9999px;
+    background: #FFFFFF;
+    padding: 0.5rem;
+}
+.profile-card-wrapper-hover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 9999px;
+    background: #E7E7E8;
+    padding: 0.5rem;
+}
+.profile-card-left-box{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-card-left-box .profile-card-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    border-radius: 9999px;
+}
+.profile-card-left-box .profile-card-photo img{
+    width: 100%;
+    border-radius: 100%;
+}
+.profile-card-left-box .profile-card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-card-left-box .profile-card-text .p1{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+.profile-card-left-box .profile-card-text .p2{
+    margin: 0px;
+    padding: 0px;
+}
+.profile-card-right-box{
+    border-radius: 9999px;
+}

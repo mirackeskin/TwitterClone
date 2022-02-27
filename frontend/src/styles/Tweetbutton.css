@@ -1,28 +1,36 @@
 .tweet-button-wrapper{
-    width: 95%;
+    width: 100%;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 10px 0px;
 }
 .tweet-button-wrapper:hover{
     cursor:pointer;
 }
 .tweet-button-wrapper .tweet-button{
     background: #1D9BF0;
-    width: 100%;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+}/*
+.tweet-button:hover{
+    background: #1A8CD8;
+}*/
+.tweet-button-wrapper .tweet-button-hover{
+    background: #1A8CD8;
+    width: 95%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 9999px;
 }
-.tweet-button:hover{
-    background: #1A8CD8;
-}
-
-.tweet-button-wrapper .tweet-button .span{
+.tweet-button-span{
     text-decoration: none;
     color: white;
     font-weight: 700;
