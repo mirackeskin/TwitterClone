@@ -1,0 +1,19 @@
+.font-button{
+    height: 100%;   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font-button-hover{
+    height: 100%;   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#spanbutton{
+    padding: 10px;
+    background-color: #E7E7E8;
+    border-radius: 9999px;
+}

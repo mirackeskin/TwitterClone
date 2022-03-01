@@ -62,16 +62,17 @@ export default class Sidebar extends Component {
     const titles=["Ana Sayfa","Keşfet","Bildirimler","Mesajlar","Yer İşaretleri","Listeler","Profil","Daha Fazla"];
     return (
       <div  className='Sidebar'>
-        <div className='sidebar-up-panel'>
-          <Twitterlogo></Twitterlogo>
-          <Sidebarbuttons sidebarbuttons={this.state.sidebarbuttons}></Sidebarbuttons>
-          <Tweetbutton></Tweetbutton>
-        </div>
-        <div className='sidebar-down-panel pb-2'>
-          <Profilecard></Profilecard>
-        </div>
-          
+      <div className='sidebar-up-panel'>
+        <Twitterlogo></Twitterlogo>
+        <Sidebarbuttons sidebarbuttons={this.state.sidebarbuttons}></Sidebarbuttons>
+        <Tweetbutton></Tweetbutton>
       </div>
+      <div className='sidebar-down-panel pb-2'>
+        <Profilecard></Profilecard>
+      </div>
+        
+    </div>
+      
       
     )
   }
