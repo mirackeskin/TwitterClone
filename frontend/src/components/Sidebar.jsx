@@ -65,7 +65,9 @@ export default class Sidebar extends Component {
       <div className='sidebar-up-panel'>
         <Twitterlogo></Twitterlogo>
         <Sidebarbuttons sidebarbuttons={this.state.sidebarbuttons}></Sidebarbuttons>
-        <Tweetbutton></Tweetbutton>
+        <div className='sidebar-tweetbutton-area'>
+          <Tweetbutton></Tweetbutton>
+        </div>
       </div>
       <div className='sidebar-down-panel pb-2'>
         <Profilecard></Profilecard>

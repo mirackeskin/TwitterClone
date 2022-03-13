@@ -1,0 +1,58 @@
+.tweet-sendcard-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid gainsboro;
+}
+.first-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 0px 1rem;
+}
+.sendcard-photo{
+    width: 10%;
+    border-radius: 9999px;
+}
+.sendcard-photo-image{
+    width: 100%;
+    border-radius: 9999px;
+}
+.sendcard-input{
+    width: 90%;
+}
+.sendcard-textarea{
+    width: 100%;
+    border-color: transparent;
+}
+
+.second-wrapper{
+    
+    height: 60px;
+    display: flex;
+}
+.space{
+    width: 12%;
+    height: 60px;
+}
+.buttons-wrapper{
+    width: 88%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+.tweet-content-buttons-wrapper{
+    width: 85%;
+}
+.tweet-content-buttons{
+    width: 50%;    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.send-tweet{
+    width: 15%;
+    height: 100%;
+}
+
