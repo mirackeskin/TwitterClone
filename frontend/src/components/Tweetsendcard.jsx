@@ -3,6 +3,7 @@ import '../styles/Tweetsendcard.css'
 import photo from '../images/profileimage.jpg'
 import Tweetbutton from './Tweetbutton';
 import Singlefontbutton from './Singlefontbutton';
+import Tweetcardbutton from './Tweetcardbutton';
 
 export default class Tweetsendcard extends Component {
     submit=()=>{

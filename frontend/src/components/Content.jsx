@@ -12,7 +12,9 @@ export default class Content extends Component {
         <Contentnavbar></Contentnavbar>
         <Tweetsendcard></Tweetsendcard>
         <Tweetcard></Tweetcard>
-        
+        <Tweetcard></Tweetcard>
+        <Tweetcard></Tweetcard>
+        <Tweetcard></Tweetcard>
       </div>
     )
   }

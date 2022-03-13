@@ -1,0 +1,28 @@
+.blue{
+    color: #35A5F1;
+    background-color: #C8E4F5;
+}
+.green{
+    color: #2AC491;
+    background-color:#A6E3CF ;
+}
+.pink{
+    color: #F91880;
+    background-color: #F7BAD7;
+}
+.defaultcolor{
+    color: gainsboro;
+}
+
+.tweetcard-button{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tweetcard-button span{
+    padding: 7px;
+    border-radius: 9999px;
+}

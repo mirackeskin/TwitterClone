@@ -1,0 +1,87 @@
+.tweetcard-wrapper{
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+}
+.tweetcard-wrapper-hover{
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+    background-color: #F7F7F7;
+}
+.tweetcard-first-wrapper{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+.tweetcard-image-wrapper{
+    width: 100%;
+    border-radius: 9999px;
+    background-color: green;
+}
+.tweetcard-image{
+    width: 100%;
+    border-radius: 9999px;
+}
+
+
+
+.tweetcard-second-wrapper{
+    background-color: transparent;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.tweet-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.tweet-owner-wrapper{
+    display: flex;
+    align-items: center;
+}
+.tweet-owner-name{
+    font-family: “Helvetica Neue”,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 5px 0px 0px;
+    margin: 0px;
+}
+.tweet-owner-nickname{
+    font-family: “Helvetica Neue”,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    padding: 0px 5px 0px 0px;
+    margin: 0px;
+    color: #8B969F;
+}
+.tweet-hour{
+    font-family: “Helvetica Neue”,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    color: #8B969F;
+}
+
+.tweet-content-text{
+    font-family: “Helvetica Neue”,Helvetica,Arial,sans-serif;
+}
+
+.tweetcard-buttons-wrapper{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tweetcard-button-wrapper{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
